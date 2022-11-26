@@ -90,6 +90,7 @@ fn main() {
                 let newgift = String::from("Twelve drummers drumming\n");
                 gifts = newgift + &gifts;
                 println!("{}", gifts);
+                println!("And a partridge in a pear tree");
                 print!("And a ");
                 io::stdout().flush().unwrap();
             },
@@ -98,5 +99,4 @@ fn main() {
         println!("partridge in a pear tree\n");
         day += 1;
     }
-    println!("And a partridge in a pear tree\n");
 }
